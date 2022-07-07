@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-31T10:39:30.556Z",
+        "line": 2,
+        "name": "Verify web page of CIIT Institute Login Section",
+        "description": "",
+        "id": "page-open-funfeature:web-page-open-functionality;verify-web-page-of-ciit-institute-login-section",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11475293000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Open CIIT Web site",
+            "match": {
+              "location": "cucumberdemo1.steps1.OpenBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "url is enter into browser",
+            "match": {
+              "location": "cucumberdemo1.steps1.Whenmethod()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "CIIT Web site should open",
+            "match": {
+              "location": "cucumberdemo1.steps1.Thenmethod()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "page open funFeature:Web Page Open Functionality",
+    "description": "",
+    "id": "page-open-funfeature:web-page-open-functionality",
+    "keyword": "Feature",
+    "uri": "file:Features/cucmber.feature",
+    "tags": []
+  }
+]
